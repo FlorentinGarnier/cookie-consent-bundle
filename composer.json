@@ -1,0 +1,75 @@
+{
+    "name": "florentingarnier/cookie-consent-bundle",
+    "description": "Symfony integration of florentingarnier/cookie-consent: a consent banner, a browser script blocking the scripts and embedded contents until the visitor consents, and the proof of each choice.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "https://github.com/FlorentinGarnier/cookie-consent-bundle",
+    "authors": [
+        {
+            "name": "Florentin Garnier",
+            "homepage": "https://github.com/FlorentinGarnier"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/FlorentinGarnier/cookie-consent-bundle/issues",
+        "source": "https://github.com/FlorentinGarnier/cookie-consent-bundle",
+        "security": "https://github.com/FlorentinGarnier/cookie-consent-bundle/security/policy"
+    },
+    "keywords": [
+        "cookie",
+        "consent",
+        "gdpr",
+        "rgpd",
+        "symfony"
+    ],
+    "require": {
+        "php": "^8.2",
+        "doctrine/doctrine-bundle": "^2.10 || ^3.0",
+        "doctrine/orm": "^2.14 || ^3.0",
+        "doctrine/persistence": "^3.1 || ^4.0",
+        "florentingarnier/cookie-consent": "^0.1",
+        "symfony/asset": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/config": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/console": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/dependency-injection": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/http-foundation": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/http-kernel": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/routing": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/twig-bundle": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "twig/twig": "^3.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-phpunit": "^2.0",
+        "phpstan/phpstan-symfony": "^2.0",
+        "phpunit/phpunit": "^10.5 || ^11.5 || ^12.0",
+        "symfony/browser-kit": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/framework-bundle": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/translation": "^5.4 || ^6.4 || ^7.4 || ^8.0",
+        "symfony/yaml": "^5.4 || ^6.4 || ^7.4 || ^8.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../cookie-consent",
+            "options": {
+                "versions": {
+                    "florentingarnier/cookie-consent": "0.1.0"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FlorentinGarnier\\CookieConsentBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FlorentinGarnier\\CookieConsentBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
