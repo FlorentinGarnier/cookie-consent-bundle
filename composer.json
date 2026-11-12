@@ -48,17 +48,6 @@
         "symfony/translation": "^5.4 || ^6.4 || ^7.4 || ^8.0",
         "symfony/yaml": "^5.4 || ^6.4 || ^7.4 || ^8.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../cookie-consent",
-            "options": {
-                "versions": {
-                    "florentingarnier/cookie-consent": "0.1.0"
-                }
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "FlorentinGarnier\\CookieConsentBundle\\": "src/"
