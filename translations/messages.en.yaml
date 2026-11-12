@@ -1,0 +1,40 @@
+florentin_garnier_cookie_consent:
+    banner:
+        title: Your cookies, your choice
+        text: >-
+            With your consent, we use cookies to measure the audience of the site, show embedded videos and measure
+            our advertising. You can change your choice at any time from the "Cookie settings" link at the bottom of
+            each page.
+    preferences:
+        title: Cookie settings
+        text: Choose the cookies you accept. Your choice applies to the whole site.
+    categories:
+        necessary:
+            label: Strictly necessary
+            description: Session, account, security and your cookie choice. The site cannot work without them.
+        analytics:
+            label: Audience measurement
+            description: Know which pages are visited, to improve the site.
+        marketing:
+            label: Advertising
+            description: Measure the efficiency of our advertising and show you our ads on other websites.
+        media:
+            label: Videos
+            description: Play the videos hosted by third parties. These services set their own cookies.
+    placeholder:
+        text: This content is hosted by a third party, which sets cookies.
+        text_with_service: 'This content is hosted by {service}, which sets cookies.'
+        allow: 'Allow: %category%'
+    ui:
+        accept_all: Accept all
+        reject_all: Reject all
+        customize: Customize
+        save: Save my choices
+        close: Close
+        manage: Cookie settings
+        learn_more: Learn more
+        always_active: Always active
+        services: 'Services: %services%'
+        consent_id: 'Your consent identifier:'
+        saved: Your choices are saved.
+        error: Your choice could not be saved. Check your connection, then try again.
